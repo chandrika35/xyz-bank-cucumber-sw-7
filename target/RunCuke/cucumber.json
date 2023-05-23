@@ -1,0 +1,293 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I Am On The Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4585015200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Verify That Customer Can Login And Logout Successfully",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-all-the-banking-functionalities;verify-that-customer-can-login-and-logout-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 660166900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 441881000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I Click On Customer Login Button",
+            "match": {
+              "location": "CustomerLoginAndLogoutStepsPage.iClickOnCustomerLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188020600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I Select \"Hermoine Granger\" From Customer Drop Down",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hermoine Granger",
+                  "offset": 10
+                }
+              ],
+              "location": "CustomerLoginAndLogoutStepsPage.iSelectFromCustomerDropDown(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89893800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I Click On Login Button",
+            "match": {
+              "location": "CustomerLoginAndLogoutStepsPage.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178917400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I Verify That The Logout Tab Is Displayed",
+            "match": {
+              "location": "CustomerLoginAndLogoutStepsPage.iVerifyThatTheLogoutTabIsDisplayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45576001,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I Click On The Logout Tab",
+            "match": {
+              "location": "CustomerLoginAndLogoutStepsPage.iClickOnTheLogoutTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31954100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I Can Verify That Your Name Text Is Displayed",
+            "match": {
+              "location": "CustomerLoginAndLogoutStepsPage.iCanVerifyThatYourNameTextIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 30,
+            "name": "@smoke"
+          },
+          {
+            "line": 30,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I Am On The Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2806054200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Verify That Customer Can Deposit Money Into Their Account Successfully",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-all-the-banking-functionalities;verify-that-customer-can-deposit-money-into-their-account-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 647913099,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 520900300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I Click On Customer Login Button",
+            "match": {
+              "location": "CustomerLoginAndLogoutStepsPage.iClickOnCustomerLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158662200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I Select \"Hermoine Granger\" From The Customer Drop Down",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hermoine Granger",
+                  "offset": 10
+                }
+              ],
+              "location": "DepositStepsPage.iSelectFromTheCustomerDropDown(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70369701,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I Click On Login Button",
+            "match": {
+              "location": "CustomerLoginAndLogoutStepsPage.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199810199,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I Click On The Deposit Button",
+            "match": {
+              "location": "DepositStepsPage.iClickOnTheDepositButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 265990300,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I Enter The \"100\" Into Amount Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 13
+                }
+              ],
+              "location": "DepositStepsPage.iEnterTheIntoAmountField(Integer)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50411799,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I Click On Deposit Button",
+            "match": {
+              "location": "DepositStepsPage.iClickOnDepositButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27916600,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I Can Verify The Successful Deposit Message Text",
+            "match": {
+              "location": "DepositStepsPage.iCanVerifyTheSuccessfulDepositMessageText()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 42,
+            "name": "@smoke"
+          },
+          {
+            "line": 42,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "As A User I Want To Verify All The Banking Functionalities",
+    "description": "",
+    "id": "as-a-user-i-want-to-verify-all-the-banking-functionalities",
+    "keyword": "Feature",
+    "uri": "BankTest.feature"
+  }
+]
